@@ -1,0 +1,58 @@
+// contact page
+
+header {
+	padding-top: 20vh;
+	margin-bottom: 20vh;
+
+	.contact_title {
+		font-size: 6rem;
+		font-weight: 800;
+		color: $color-primary;
+		margin-left: 4vw;
+		position: relative;
+	}
+
+	.bg_offset {
+		height: 25vh;
+		width: 15vw;
+		background-color: $color-secondary;
+		opacity: .5;
+		position: absolute;
+		top: -5%;
+		left: 0;
+		z-index: -1;
+	}
+
+	.contact_content {
+		margin-top: 4rem;
+		padding: 2vw;
+
+		.contact_subtitle {
+			font-size: 1.6rem;
+			font-weight: 600;
+			color: $color-primary;
+			margin-bottom: 2rem;
+		}
+
+		.contact_list {
+			font-size: 1.6rem;
+			margin-bottom: 1rem;
+
+			ion-icon {
+				color: $color-primary;
+			}
+		}
+	}
+}
+
+form {
+
+	.form-row {
+		padding: 2vw;
+
+		.form-control {
+			font-size: 1.3rem;
+			margin: 1rem 0;
+		}
+	}
+}

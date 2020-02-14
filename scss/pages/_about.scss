@@ -1,0 +1,77 @@
+// about page
+
+.about_article {
+	padding: 20vh 0;
+
+	.about_article-text {
+		font-size: 1.6rem;
+	}
+}
+
+.start {
+
+	.start_title, .start_card-title {
+		font-size: 4rem;
+		font-weight: 400;
+		color: $color-primary;
+		margin-bottom: 4rem;
+	}
+
+	.start_card {
+		padding: 4rem;
+		width: 80%;
+		box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.12);
+		position: relative;
+		background-color: $color-white;
+	}
+
+	.start_card-shadow {
+		height: 50vh;
+		width: 25vw;
+		background-color: $color-secondary;
+		opacity: .5;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		transform: translate(-20%, 0);
+		z-index: -1;
+	}
+
+	.start_text, .start_subtitle, .start_card-text {
+		font-size: 1.6rem;
+	}
+
+	.start_img {
+		margin: 2rem 0;
+	}
+
+	.start_subtitle {
+		margin-bottom: 2rem;
+	}
+}
+
+.history {
+	padding: 20vh 0;
+
+	.history_title {
+		font-size: 4rem;
+		font-weight: 400;
+		color: $color-primary;
+		margin-bottom: 4rem;
+	}
+
+	.history_content {
+		margin-bottom: 4rem;
+
+		.history_content-title {
+			font-size: 1.6rem;
+			font-weight: 600;
+			color: $color-primary;
+			margin-bottom: 2rem;
+		}
+
+		.history_content-text {
+			font-size: 1.6rem;
+		}
+	}
+}

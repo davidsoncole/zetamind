@@ -1,0 +1,37 @@
+// services page
+
+.services_article {
+	padding: 20vh 0;
+
+	.services_article-text {
+		font-size: 1.6rem;
+	}
+}
+
+.services_features {
+	padding: 10vh 0 20vh 0;
+
+	.services_features-img {
+		margin: 4rem 0;
+	}
+
+	.services_features-title {
+		font-size: 1.6rem;
+		font-weight: 600;
+	}
+
+	.services_features-text {
+		font-size: 1.6rem;
+	}
+}
+
+.action {
+	padding-bottom: 20vh;
+
+	.action_title {
+		font-size: 1.6rem;
+		font-weight: 600;
+		margin-bottom: 4rem;
+		color: $color-primary;
+	}
+}

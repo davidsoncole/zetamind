@@ -1,0 +1,73 @@
+// product page
+
+.products {
+	padding: 20vh 0 10vh 0;
+
+	.products_title {
+		font-size: 3rem;
+		font-weight: 600;
+		color: $color-primary;
+	}
+
+	.products_subtitle {
+		font-size: 1.6rem;
+	}
+}
+
+.produce {
+	padding: 10vh 0;
+
+	.produce_title {
+		font-size: 2rem;
+		font-weight: 600;
+		color: $color-primary;
+	}
+
+	.line {
+		width: 30rem;
+		height: .5rem;
+		border-left: 5rem solid $color-primary;
+		background-color: $color-secondary;
+		margin-top: 1rem;
+		margin-bottom: 4rem;
+	}
+
+	.linex {
+		width: 15rem;
+		height: .5rem;
+		border-left: 5rem solid $color-primary;
+		background-color: $color-secondary;
+		margin-top: 1rem;
+		margin-bottom: 4rem;
+	}
+
+	.produce_content {
+		margin-bottom: 4rem;
+
+		.produce_subheaders {
+			font-size: 1.6rem;
+			font-weight: 600;
+			color: $color-primary;
+		}
+
+		.produce_caption {
+			font-size: 1.6rem;
+		}
+	}
+}
+
+.consulting {
+	padding: 10vh 0 20vh 0;
+
+	.consulting_title {
+		font-size: 3rem;
+		color: $color-primary;
+		margin-bottom: 4rem;
+	}
+
+	.consulting_list {
+		font-size: 1.6rem;
+		margin-bottom: 2rem;
+	}
+
+}

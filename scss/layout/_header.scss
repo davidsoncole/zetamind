@@ -1,0 +1,56 @@
+// header component
+
+header {
+
+	.header_content-text {
+		padding: 10vh 0;
+		position: relative;
+
+		.ball_one {
+			position: absolute;
+			top: 0;
+			left: 10%;
+			z-index: -1;
+			opacity: .5;
+		}
+
+		.ball_two {
+			position: absolute;
+			top: 0;
+			right: 0;
+			z-index: -1;
+			opacity: .5;
+		}
+
+		.ball_four {
+			position: absolute;
+			top: 60%;
+			left: 60%;
+			z-index: -1;
+			opacity: .5;
+		}
+
+		.header_subtitle {
+			font-size: 2rem;
+			font-weight: bold;
+			color: $color-ash;
+		}
+
+		.header_title {
+			font-weight: 800;
+			color: $color-primary;
+		}
+	}
+
+	.header_content-img {
+		position: relative;
+
+		.ball_three {
+			position: absolute;
+			top: 0;
+			right: 0;
+			z-index: -1;
+			opacity: .5;
+		}
+	}
+}

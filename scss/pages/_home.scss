@@ -1,0 +1,72 @@
+// index page
+
+.values {
+	padding: 20vh 0;
+	position: relative;
+
+	.bg_fish {
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: -1;
+		opacity: .5;
+		transform: translate(15%, 0);
+	}
+
+	.values_title {
+		font-size: 4rem;
+		font-weight: 600;
+		margin-bottom: 10vh;
+		color: $color-primary;
+	}
+
+	.values_text {
+		font-size: 1.6rem;
+	}
+
+	.values_card {
+		padding: 2rem;
+
+		.values_card-text {
+			font-size: 1.6rem;
+			margin-top: 2rem;
+		}
+	}
+}
+
+.approach {
+	padding: 20vh 0;
+	position: relative;
+
+	.dots {
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: -1;
+		opacity: .5;
+	}
+
+	.approach_title {
+		font-size: 4rem;
+		font-weight: 600;
+		margin-bottom: 10vh;
+		color: $color-primary;
+	}
+
+	.approach_content-text {
+	}
+
+	.approach_list {
+		margin-bottom: 4rem;
+
+		.approach_list-title {
+			font-size: 2rem;
+			font-weight: 600;
+			color: $color-primary;
+		}
+
+		.approach_list-subtitle {
+			font-size: 1.6rem;
+		}
+	}
+}
