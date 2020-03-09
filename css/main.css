@@ -26,7 +26,13 @@ body {
   color: #ffffff;
   border-left: 1.5rem solid #054DA1;
   background-color: #00C2FF;
-  padding: 1rem 4rem; }
+  padding: 1rem 4rem;
+  margin: 1rem 1rem 1rem 0; }
+
+.btn-default:hover {
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #054DA1; }
 
 footer {
   border-top: 0.2rem solid #054DA1;
@@ -46,20 +52,20 @@ footer {
     font-size: 20px;
     color: #054DA1; }
 
-.navbar .nav_img {
-  width: 12rem; }
-
-.navbar .nav-item {
-  margin-right: 2rem; }
-  .navbar .nav-item .nav-link {
+.navbar {
+  background-color: #fff; }
+  .navbar .nav_img {
+    width: 12rem; }
+  .navbar .nav-item {
+    margin-right: 2rem; }
+    .navbar .nav-item .nav-link {
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: #054DA1; }
+  .navbar .dropdown-menu .dropdown-item {
     font-size: 1.3rem;
-    font-weight: 800;
+    font-weight: 600;
     color: #054DA1; }
-
-.navbar .dropdown-menu .dropdown-item {
-  font-size: 1.3rem;
-  font-weight: 600;
-  color: #054DA1; }
 
 header .header_content-text {
   padding: 10vh 0;
@@ -275,6 +281,44 @@ header .header_content-img {
   .consulting .consulting_list {
     font-size: 1.6rem;
     margin-bottom: 2rem; }
+
+.overlay {
+  background-color: #054DA1;
+  padding: 1rem 2rem;
+  width: 20rem; }
+
+.img_size {
+  width: 30vw;
+  border-radius: 2rem;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.12);
+  margin-bottom: 2rem; }
+
+.qbook {
+  padding-bottom: 20vh; }
+  .qbook .products_title {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #1cac78; }
+  .qbook .products_subtitle {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #1cac78; }
+  .qbook .captions {
+    font-size: 1.6rem; }
+
+.csoftware {
+  padding-bottom: 20vh; }
+  .csoftware .products_title {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #054DA1; }
+  .csoftware .products_subtitle {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #054DA1; }
+  .csoftware .captions {
+    font-size: 1.6rem; }
 
 header {
   padding-top: 20vh;

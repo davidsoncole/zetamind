@@ -25,7 +25,7 @@
 </head>
 <body id="homepage">
     
-	<nav class="navbar navbar-expand-lg navbar-light">
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top">
 	  	<a class="navbar-brand" href="index.html">
 	  		<img class="nav_img" src="assets/logo_dark.jpg">
 	   		<span class="sr-only">(current)</span>
@@ -42,14 +42,18 @@
 	      <li class="nav-item">
 	        <a class="nav-link" href="services.html">SERVICES</a>
 	      </li>
-	      <li class="nav-item active dropdown">
+	      <li class="nav-item dropdown">
 		    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">PRODUCTS</a>
 		    <div class="dropdown-menu">
 		      <a class="dropdown-item" href="product-microsoft-nav.html">Microsoft Dynamics 365</a>
 		      <div class="dropdown-divider"></div>
 		      <a class="dropdown-item" href="product-enterprisex.html">Enterprise X</a>
 		      <div class="dropdown-divider"></div>
-		      <a class="dropdown-item disabled" href="#">Custom Software</a>
+		      <a class="dropdown-item" href="product-quick-book.html">Quick Book</a>
+		      <div class="dropdown-divider"></div>
+		      <a class="dropdown-item" href="product-sage.html">Sage</a>
+		      <div class="dropdown-divider"></div>
+		      <a class="dropdown-item" href="product-custom-software.html">Custom Software</a>
 		    </div>
 		  </li>
 	      <li class="nav-item">
@@ -65,9 +69,43 @@
 				<div class="col-lg-6">
 					<h2 class="products_title">Lorem ipsum dolor sit amet, ipsum pulvinar suscipit, etiam interdum</h2>
 					<p class="products_subtitle">Lorem ipsum dolor sit amet, ipsum pulvinar suscipit, etiam interdum mattis eget nulla, duis ultricies consectetuer tellus justo, vel odio volutpat nec sodales luctus torquent. Sit vitae dolor.</p>
+					<a href="#" class="btn btn-default">VIEW DEMO</a>
+					<a href="#" class="btn btn-default">DOWNLOAD BROCHURE</a>
 				</div>
 				<div class="col-lg-6 text-center">
-					<img class="products_img" src="assets/enterprisex.png">
+					<div class="bd-example">
+					  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+					    <ol class="carousel-indicators">
+					      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+					      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+					      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+					    </ol>
+					    <div class="carousel-inner">
+					      <div class="carousel-item active text-center">
+					      	<div class="text-center">
+					      		<img style="margin: auto;" src="assets/enterprisex.png" class="d-block" alt="...">
+					      	</div>
+					        
+					      </div>
+					      <div class="carousel-item text-center">
+					        <img class="img_size" src="assets/Dashboard-Customer.png" class="d-block" alt="...">
+					        <div class="carousel-caption d-none d-md-block">
+					        	<div class="overlay">
+					        		<h5>Dashboard-Customer</h5>
+					        	</div>
+					        </div>
+					      </div>
+					      <div class="carousel-item text-center">
+					        <img class="img_size" src="assets/Dashboard-MultiEntityAccounting.png" class="d-block" alt="...">
+					        <div class="carousel-caption d-none d-md-block">
+					          	<div class="overlay">
+				        			<h5>Dashboard MultiEntity Accounting</h5>
+				        		</div>
+					        </div>
+					      </div>
+					    </div>
+					  </div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -99,6 +137,165 @@
 			    	<div class="produce_content">
 			    		<h5 class="produce_subheaders">Enterprise X ERP & CRM Upgrade/Migration Services</h5>
 			    		<p class="produce_caption">Upgrading simply means going from a version of Enterprise X to another, usually from older version to the newest version. Migrating from one version of Enterprise X System to another can bring about bottleneck. At times companies are reluctant in taking the decision to upgrade to a newer version because it could mar business processes and transactions. At Zetamind Group, we have a worthwhile team that can assure your business of successful migration of its ERP software in order to explore the dynamic features and optimization in the newest version of Enterprise X.</p>
+			    	</div>
+			    </div>
+		    </div>
+		</div>
+	</section>
+
+	<section class="produce">
+		<div class="container-fulid">
+			<div class="row">
+				<div class="col-12">
+					<h4 class="produce_title">Integral Accounting Enterprise Features Checklist</h4>
+			    	<div class="linex"></div>
+				</div>
+			    <div class="col-lg-6">
+			    	<div class="produce_content">
+			    		<h5 class="produce_subheaders">System Overview</h5>
+			    		<ul>
+		    				<li class="produce_caption">Unlimited Multi-Company Support</li>
+		    				<li class="produce_caption">Full Audit Trail using Triggers</li>
+		    				<li class="produce_caption">Unlimited Divisions Per Company</li>
+		    				<li class="produce_caption">Over 100 Reports Included</li>
+		    				<li class="produce_caption">Unlimited Departments Per Division</li>
+		    				<li class="produce_caption">Unlimited Warehouses</li>
+		    				<li class="produce_caption">Unlimited Bins per Warehouse</li>
+		    				<li class="produce_caption">Multi-Currency, Multi-Language</li>
+		    				<li class="produce_caption">100% Web-Based</li>
+		    				<li class="produce_caption">GAAP & IAS Compliant</li>
+		    			</ul>
+			    	</div>
+			    	<div class="produce_content">
+			    		<h5 class="produce_subheaders">General Ledger</h5>
+			    		<ul>
+		    				<li class="produce_caption">36 Position Account Number Fields</li>
+		    				<li class="produce_caption">Fixed Assets</li>
+		    				<li class="produce_caption">Fully Custom Chart of Accounts</li>
+		    				<li class="produce_caption">Asset Depreciation</li>
+		    				<li class="produce_caption">Budget by General Ledger Account</li>
+		    				<li class="produce_caption">Bank Reconciliation</li>
+		    				<li class="produce_caption">Supports from 1 to 14 Periods</li>
+		    				<li class="produce_caption">Currency Exchange Rate Tracking</li>
+		    				<li class="produce_caption">Simple Period-End and Year-End Close</li>
+		    				<li class="produce_caption">Realized Gains & Losses on Currency Transactions</li>
+		    				<li class="produce_caption">Full Audit Trail, Reversing Entries</li>
+		    				<li class="produce_caption">GAAP & IFRS Financial Reports</li>
+		    			</ul>
+			    	</div>
+			    </div>
+			    <div class="col-lg-6">
+			    	<div class="produce_content">
+			    		<h5 class="produce_subheaders">Accounts Receivable & Order Entry</h5>
+			    		<ul>
+							<li class="produce_caption">Orders, Quotes, & Contracts</li>
+							<li class="produce_caption">Ability to easily support Bar Codes</li>
+							<li class="produce_caption">Convert Orders to Contracts</li>
+							<li class="produce_caption">Unlimited Customers</li>
+							<li class="produce_caption">Invoices & Credit Memos</li>
+							<li class="produce_caption">Unlimited Ship-To’s per Customer</li>
+							<li class="produce_caption">Backorder Handling,  Re-allocate Orders</li>		
+							<li class="produce_caption">Unlimited Ship-For’s per Ship To</li>
+							<li class="produce_caption">Automatic Credit Hold</li>
+							<li class="produce_caption">Unlimited Customer Contacts</li>
+							<li class="produce_caption">Pick tickets, Packing Lists and Shipping Cycle</li>
+							<li class="produce_caption">Customer Specific Pricing</li>
+							<li class="produce_caption">Ship Confirm Orders</li>
+							<li class="produce_caption">Customer Specific Part Numbers</li>
+							<li class="produce_caption">Automatic Invoicing of Shipped Orders</li>	
+							<li class="produce_caption">Easy Cash Receipts Process</li>
+							<li class="produce_caption">Service Orders & Service Invoices</li>	
+							<li class="produce_caption">Fully Integrated Shopping Cart</li>
+							<li class="produce_caption">Returns</li>
+							<li class="produce_caption">Can easily support POS</li>
+							<li class="produce_caption">Real-Time Shipping Rates</li>
+							<li class="produce_caption">Job Costing & Tracking</li>
+		    			</ul>
+			    	</div>
+			    </div>
+			    <div class="col-lg-6">
+			    	<div class="produce_content">
+			    		<h5 class="produce_subheaders">Inventory Control</h5>
+			    		<ul>
+							<li class="produce_caption">Inventory by Warehouse by Bin</li>
+							<li class="produce_caption">Inventory Transfers</li>
+							<li class="produce_caption">Unlimited Item Categories</li>
+							<li class="produce_caption">Inventory Adjustments</li>
+							<li class="produce_caption">Unlimited Item Families</li>
+							<li class="produce_caption">Inventory Assemblies</li>
+							<li class="produce_caption">Unlimited Items</li>
+							<li class="produce_caption">Consignment Warehouses</li>
+							<li class="produce_caption">Item Pricing Codes</li>
+							<li class="produce_caption">Supports FIFO, LIFO, and Average Cost</li>
+							<li class="produce_caption">Ability to easily support Bar Codes</li>
+							<li class="produce_caption">Tracks all costing methods simultaneously</li>
+							<li class="produce_caption">Inventory Serial and Lot Numbers</li>
+							<li class="produce_caption">Bills of Materials, Work Order</li>
+		    			</ul>
+			    	</div>
+			    </div>
+			    <div class="col-lg-6">
+			    	<div class="produce_content">
+			    		<h5 class="produce_subheaders">Accounts Payable & Purchasing</h5>
+			    		<ul>
+							<li class="produce_caption">Purchase Orders & Debit Memos</li>
+							<li class="produce_caption">Checks Print to Blank Check Stock</li>
+							<li class="produce_caption">Receiving</li>
+							<li class="produce_caption">Void Checks</li>
+							<li class="produce_caption">Partial Receipts</li>
+							<li class="produce_caption">Unlimited Vendors</li>
+							<li class="produce_caption">Receive into multiple warehouses & bins</li>
+							<li class="produce_caption">Vendor Specific Prices</li>
+							<li class="produce_caption">Purchase Order Approval Process</li>
+							<li class="produce_caption">Vendor Specific Part Numbers</li>
+							<li class="produce_caption">Vouchers & Payments</li>
+							<li class="produce_caption">Unlimited Warehouses</li>
+							<li class="produce_caption">RMA’s & RMA Receiving Process</li>
+							<li class="produce_caption">Unlimited Bins Per Warehouse</li>
+							<li class="produce_caption">Payment Approval Process</li>
+							<li class="produce_caption">Ability to easily support Bar Codes</li>
+		    			</ul>
+			    	</div>
+			    </div>
+		    </div>
+		</div>
+	</section>
+
+	<section class="produce">
+		<div class="container-fulid">
+			<div class="row">
+				<div class="col-12">
+					<h4 class="produce_title">International Features Checklist</h4>
+			    	<div class="linex"></div>
+				</div>
+			    <div class="col-lg-6">
+			    	<div class="produce_content">
+			    		<h5 class="produce_subheaders">Integral Accounting Enterprise International Features</h5>
+			    		<ul>
+							<li class="produce_caption">Multi-Lingual, Multi-Currency</li>
+							<li class="produce_caption">Easily Edit existing language translations, or add your own language!</li>
+							<li class="produce_caption">Integral Accounting Enterprise is multi-currency, and supports various models of VAT Taxation that allow the software to be used globally!</li>
+							<li class="produce_caption">Use the Global Features in conjunction with the Web Interface, have the software in operation globally!</li>
+							<li class="produce_caption">Multi-Language – Visit Global Portal for supported Languages</li>
+							<li class="produce_caption">Tracks Historical Exchange Rates</li>
+							<li class="produce_caption">Languages can inter-operate simultaneously!</li>
+							<li class="produce_caption">Tracks Realized Currency Gains & Losses</li>
+							<li class="produce_caption">Switch Between Languages on the fly!</li>
+							<li class="produce_caption">GST, VAT Sales & Purchase Tax</li>
+							<li class="produce_caption">Easily Edit, or Even Enter your own Language Translations!</li>
+							<li class="produce_caption">Detail Line Item Tax Calculation</li>
+							<li class="produce_caption">Multi-Currency!</li>
+							<li class="produce_caption">Unlimited Currency Support!</li>
+							<li class="produce_caption">Each Transaction can have it’s own currency!</li>
+							<li class="produce_caption">Bank Accounts in any Currency</li>
+		    			</ul>
+			    	</div>
+			    </div>
+			    <div class="col-lg-6">
+			    	<div class="produce_content">
+			    		<h5 class="produce_subheaders">World-Wide Receivables with OmniPay Integration!</h5>
+			    		<p class="produce_caption">Integral Accounting Enterprise X supports the Open-Source Package Omnipay, which is now integrated with both the Accounts Receivable and the built-in Ecommerce Shopping cart!</p>
+			    		<p class="produce_caption">The Omnipay Payment Gateway allows the software to be used with hundreds of payment processors worldwide!</p>
 			    	</div>
 			    </div>
 		    </div>

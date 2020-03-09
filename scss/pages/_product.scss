@@ -71,3 +71,56 @@
 	}
 
 }
+
+.overlay {
+	background-color: $color-primary;
+	padding: 1rem 2rem;
+	width: 20rem;
+}
+
+.img_size {
+	width: 30vw;
+	border-radius: 2rem;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.12);
+	margin-bottom: 2rem;
+}
+
+.qbook {
+	padding-bottom: 20vh;
+
+	.products_title {
+		font-size: 3rem;
+		font-weight: 600;
+		color: #1cac78;
+	}
+
+	.products_subtitle {
+		font-size: 1.6rem;
+		font-weight: bold;
+		color: #1cac78;
+	}
+
+	.captions {
+		font-size: 1.6rem;
+	}
+}
+
+.csoftware {
+	padding-bottom: 20vh;
+
+	.products_title {
+		font-size: 3rem;
+		font-weight: 600;
+		color: $color-primary;
+	}
+
+	.products_subtitle {
+		font-size: 1.6rem;
+		font-weight: bold;
+		color: $color-primary;
+	}
+
+	.captions {
+		font-size: 1.6rem;
+	}
+}
