@@ -88,10 +88,19 @@
 .qbook {
 	padding-bottom: 20vh;
 
+	.qb_box {
+		padding: 2rem;
+	}
+
+	img {
+		margin-bottom: 2rem;
+	}
+
 	.products_title {
 		font-size: 3rem;
 		font-weight: 600;
 		color: #1cac78;
+		margin-bottom: 4rem;
 	}
 
 	.products_subtitle {
@@ -108,10 +117,26 @@
 .csoftware {
 	padding-bottom: 20vh;
 
+	.heading {
+
+		.captions {
+			margin-bottom: 4rem;
+		}
+	}
+
+	.cs_box {
+		padding: 2rem;
+	}
+
+	img {
+		margin-bottom: 2rem;
+	}
+
 	.products_title {
 		font-size: 3rem;
 		font-weight: 600;
 		color: $color-primary;
+		margin-bottom: 2rem;
 	}
 
 	.products_subtitle {
@@ -123,4 +148,17 @@
 	.captions {
 		font-size: 1.6rem;
 	}
+}
+
+.thanks {
+
+	.products_title {
+		margin-top: 20vh;
+		font-size: 3rem;
+	}
+
+	.products_subtitle {
+		font-size: 1.6rem;
+	}
+
 }

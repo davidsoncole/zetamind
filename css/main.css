@@ -27,12 +27,18 @@ body {
   border-left: 1.5rem solid #054DA1;
   background-color: #00C2FF;
   padding: 1rem 4rem;
-  margin: 1rem 1rem 1rem 0; }
+  margin: 1rem 1rem 1rem 0;
+  -webkit-transition: all ease 1s;
+  -o-transition: all ease 1s;
+  transition: all ease 1s; }
 
 .btn-default:hover {
   font-weight: bold;
   color: #ffffff;
-  background-color: #054DA1; }
+  background-color: #054DA1;
+  -webkit-transition: all ease 1s;
+  -o-transition: all ease 1s;
+  transition: all ease 1s; }
 
 footer {
   border-top: 0.2rem solid #054DA1;
@@ -51,6 +57,23 @@ footer {
   footer .footer_link {
     font-size: 20px;
     color: #054DA1; }
+
+.footer .footer_list .footer_list-link {
+  display: inline;
+  margin-right: 2rem;
+  font-size: 1.3rem;
+  font-weight: 600; }
+  .footer .footer_list .footer_list-link a {
+    color: #054DA1;
+    text-decoration: none; }
+
+.footer .footer_caption {
+  font-size: 1.2rem;
+  color: #959595; }
+
+.footer .footer_link {
+  font-size: 20px;
+  color: #054DA1; }
 
 .navbar {
   background-color: #fff; }
@@ -296,10 +319,15 @@ header .header_content-img {
 
 .qbook {
   padding-bottom: 20vh; }
+  .qbook .qb_box {
+    padding: 2rem; }
+  .qbook img {
+    margin-bottom: 2rem; }
   .qbook .products_title {
     font-size: 3rem;
     font-weight: 600;
-    color: #1cac78; }
+    color: #1cac78;
+    margin-bottom: 4rem; }
   .qbook .products_subtitle {
     font-size: 1.6rem;
     font-weight: bold;
@@ -309,16 +337,30 @@ header .header_content-img {
 
 .csoftware {
   padding-bottom: 20vh; }
+  .csoftware .heading .captions {
+    margin-bottom: 4rem; }
+  .csoftware .cs_box {
+    padding: 2rem; }
+  .csoftware img {
+    margin-bottom: 2rem; }
   .csoftware .products_title {
     font-size: 3rem;
     font-weight: 600;
-    color: #054DA1; }
+    color: #054DA1;
+    margin-bottom: 2rem; }
   .csoftware .products_subtitle {
     font-size: 1.6rem;
     font-weight: bold;
     color: #054DA1; }
   .csoftware .captions {
     font-size: 1.6rem; }
+
+.thanks .products_title {
+  margin-top: 20vh;
+  font-size: 3rem; }
+
+.thanks .products_subtitle {
+  font-size: 1.6rem; }
 
 header {
   padding-top: 20vh;

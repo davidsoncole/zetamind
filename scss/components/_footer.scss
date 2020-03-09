@@ -29,3 +29,31 @@ footer {
 		color: $color-primary;
 	}
 }
+
+.footer {
+
+	.footer_list {
+
+		.footer_list-link {
+			display: inline;
+			margin-right: 2rem;
+			font-size: 1.3rem;
+			font-weight: 600;
+
+			a {
+				color: $color-primary;
+				text-decoration: none;
+			}
+		}
+	}
+
+	.footer_caption {
+		font-size: 1.2rem;
+		color: $color-ash;
+	}
+
+	.footer_link {
+		font-size: 20px;
+		color: $color-primary;
+	}
+}

@@ -5,10 +5,12 @@
 	background-color: $color-secondary;
 	padding: 1rem 4rem;
 	margin: 1rem 1rem 1rem 0;
+	transition: all ease 1s;
 }
 
 .btn-default:hover {
 	font-weight: bold;
 	color: $color-white;
 	background-color: $color-primary;
+	transition: all ease 1s;
 }
