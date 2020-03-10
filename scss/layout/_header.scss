@@ -45,6 +45,11 @@ header {
 	.header_content-img {
 		position: relative;
 
+		.header_img {
+			width: 70%;
+			margin: auto;
+		}
+
 		.ball_three {
 			position: absolute;
 			top: 0;

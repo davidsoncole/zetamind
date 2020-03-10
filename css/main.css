@@ -40,6 +40,13 @@ body {
   -o-transition: all ease 1s;
   transition: all ease 1s; }
 
+.brochure_form {
+  padding: 2rem; }
+  .brochure_form .col-12 {
+    padding: 1rem; }
+  .brochure_form .form-control {
+    font-size: 1.3rem; }
+
 footer {
   border-top: 0.2rem solid #054DA1;
   padding: 2rem 0; }
@@ -121,6 +128,9 @@ header .header_content-text {
 
 header .header_content-img {
   position: relative; }
+  header .header_content-img .header_img {
+    width: 70%;
+    margin: auto; }
   header .header_content-img .ball_three {
     position: absolute;
     top: 0;
@@ -361,6 +371,21 @@ header .header_content-img {
 
 .thanks .products_subtitle {
   font-size: 1.6rem; }
+
+.modal-content {
+  padding: 2rem;
+  border: 0;
+  border-radius: 0; }
+  .modal-content .modal-header, .modal-content .modal-footer {
+    border: 0; }
+
+.modal-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #054DA1; }
+
+.btn-secondary, .btn-primary {
+  font-size: 1.2rem; }
 
 header {
   padding-top: 20vh;

@@ -162,3 +162,23 @@
 	}
 
 }
+
+.modal-content {
+	padding: 2rem;
+	border: 0;
+	border-radius: 0;
+
+	.modal-header, .modal-footer {
+		border: 0;
+	}
+}
+
+.modal-title {
+	font-size: 2rem;
+	font-weight: bold;
+	color: $color-primary;
+}
+
+.btn-secondary, .btn-primary {
+	font-size: 1.2rem;
+}
