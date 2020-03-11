@@ -22,6 +22,10 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
 </head>
 <body id="homepage">
     
@@ -67,7 +71,7 @@
 		<div class="container-fulid">
 			<div class="row">
 				<div class="col-lg-6">
-					<h1 class="contact_title">Get in touch with us right away</h1>
+					<h1 class="contact_title animated fadeInLeft">Get in touch with us right away</h1>
 					<div class="bg_offset"></div>
 					<div class="contact_content">
 						<h5 class="contact_subtitle">Our Office Address</h5>
@@ -81,7 +85,7 @@
 					</div>
 				</div>
 				<div class="col-lg-6">
-					<div class="contact_form">
+					<div class="contact_form animated fadeIn">
 						<form>
 							<div class="form-row">
 							    <div class="col-lg-6">
@@ -153,7 +157,54 @@
 
 	<!-- custom script -->
 	<script>
+		window.sr = ScrollReveal();
+		sr.reveal('.navbar', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
 
+		sr.reveal('.bg_offset', {
+			duration: 2000,
+			origin: 'top',
+			distance: '200px'
+		});
+
+		sr.reveal('.contact_subtitle', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.contact_list', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.services_features-title', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.services_features-text', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.action_title', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.action_btn', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
 	</script>
 
 </body>

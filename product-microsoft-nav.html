@@ -22,6 +22,10 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
 </head>
 <body id="homepage">
     
@@ -69,8 +73,8 @@
 				<div class="col-lg-6">
 					<h2 class="products_title">Lorem ipsum dolor sit amet, ipsum pulvinar suscipit, etiam interdum</h2>
 					<p class="products_subtitle">Lorem ipsum dolor sit amet, ipsum pulvinar suscipit, etiam interdum mattis eget nulla, duis ultricies consectetuer tellus justo, vel odio volutpat nec sodales luctus torquent. Sit vitae dolor.</p>
-					<a href="#" class="btn btn-default">VIEW DEMO</a>
-					<button href="#" class="btn btn-default" data-toggle="modal" data-target="#brochure_form">DOWNLOAD BROCHURE</button>
+					<a href="#" class="btn btn-default demo_btn">VIEW DEMO</a>
+					<button href="#" class="btn btn-default download_btn" data-toggle="modal" data-target="#brochure_form">DOWNLOAD BROCHURE</button>
 				</div>
 				<div class="col-lg-6 text-center">
 					<img class="products_img" src="assets/microsoft nav.png">
@@ -212,7 +216,66 @@
 
 	<!-- custom script -->
 	<script>
+		window.sr = ScrollReveal();
+		sr.reveal('.navbar', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
 
+		sr.reveal('.products_title', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.products_subtitle', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.demo_btn', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.download_btn', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.line', {
+			duration: 2000,
+			origin: 'left',
+			distance: '10px'
+		});
+
+		sr.reveal('.produce_subheaders', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.produce_caption', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.consulting_title', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.consulting_list', {
+			duration: 2000,
+			origin: 'right',
+			distance: '10px'
+		});
 	</script>
 
 </body>

@@ -22,6 +22,11 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+
 </head>
 <body id="homepage">
     
@@ -67,10 +72,10 @@
 		<div class="container-fulid header_content">
 			<div class="row">
 				<div class="col-lg-6 header_content-text">
-					<p class="header_subtitle">Excellence is our motto</p>
-					<h1 class="header_title">Client satisfaction is our goal.</h1>
-					<p class="header_subtitle">sharing clients' aspirations</p>
-					<a href="#" class="btn btn-default">LEARN MORE</a>
+					<p class="header_subtitle  animated fadeIn">Excellence is our motto</p>
+					<h1 class="header_title animated fadeInLeft">Client satisfaction is our goal.</h1>
+					<p class="header_subtitle  animated fadeIn">sharing clients' aspirations</p>
+					<a href="#" class="btn btn-default animated fadeIn">LEARN MORE</a>
 					<img class="ball_one" src="assets/ball-one.png">
 					<img class="ball_two" src="assets/ball-two.png">
 					<img class="ball_four" src="assets/ball-four.png">
@@ -141,7 +146,7 @@
 						<h5 class="approach_list-title">Consumer Products Consulting</h5>
 						<span class="approach_list-subtitle">We help companies dealing in consumer products create and present products that perfectly blend in with the zeitgeist.</span>
 					</div>
-					<a href="" class="btn btn-default">VIEW SERVICES</a>
+					<a href="" class="btn btn-default btn_two">VIEW SERVICES</a>
 				</div>
 				<div class="col-lg-2"></div>
 			</div>
@@ -184,7 +189,66 @@
 
 	<!-- custom script -->
 	<script>
+		window.sr = ScrollReveal();
+		sr.reveal('.navbar', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
 
+		sr.reveal('.values_title', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.values_text', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.values_img', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.values_card-text', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.approach_title', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.approach_list-title', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.approach_list-subtitle', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.btn_two', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.dots', {
+			duration: 2000,
+			origin: 'right',
+			distance: '10px'
+		});
 	</script>
 
 </body>

@@ -22,6 +22,10 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
 </head>
 <body id="homepage">
     
@@ -67,10 +71,10 @@
 		<div class="container-fulid header_content">
 			<div class="row">
 				<div class="col-lg-6 header_content-text">
-					<h1 class="header_title">Building an enjoyable relationships with our clients</h1>
+					<h1 class="header_title animated fadeInLeft">Building an enjoyable relationships with our clients</h1>
 				</div>
 				<div class="col-lg-6">
-					<img class="header_img d-none d-sm-none d-md-block d-lg-block d-xl-block" src="assets/team.svg">
+					<img style="width: 70%; margin: auto;" class="header_img d-none d-sm-none d-md-block d-lg-block d-xl-block" src="assets/team.svg">
 				</div>
 			</div>
 		</div>
@@ -79,6 +83,9 @@
 	<section class="services_article">
 		<div class="container-fulid">
 			<div class="row">
+				<div class="col-lg-12">
+					<h2 class="services_article-title">Core values that have kept afloat and our clients greatful</h2>
+				</div>
 				<div class="col-lg-6">
 					<p class="services_article-text">Zetamind Consulting approaches every client’s business as if it were our own. We believe a consulting firm should be more than an advisor. We put ourselves in our clients’ shoes, align our incentives with their objectives, and collaborate to unlock the full potential of their business. This builds deep and enjoyable relationships.</p>
 				</div>
@@ -133,7 +140,7 @@
 			<div class="row">
 				<div class="col-12 text-center">
 					<h5 class="action_title">Looking for a First-Class Business Plan Consultant?</h5>
-					<a href="" class="btn btn-default">GET IN TOUCH</a>
+					<a href="" class="btn btn-default action_btn">GET IN TOUCH</a>
 				</div>
 			</div>
 		</div>
@@ -176,7 +183,54 @@
 
 	<!-- custom script -->
 	<script>
+		window.sr = ScrollReveal();
+		sr.reveal('.navbar', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
 
+		sr.reveal('.services_article-title', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.services_article-text', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.services_features-img', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.services_features-title', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.services_features-text', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.action_title', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.action_btn', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
 	</script>
 
 </body>

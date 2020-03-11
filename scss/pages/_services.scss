@@ -1,7 +1,14 @@
 // services page
 
 .services_article {
-	padding: 20vh 0;
+	padding: 5vh 0;
+
+	.services_article-title {
+		font-size: 4rem;
+		font-weight: 600;
+		margin-bottom: 5vh;
+		color: $color-primary;
+	}
 
 	.services_article-text {
 		font-size: 1.6rem;
@@ -13,6 +20,7 @@
 
 	.services_features-img {
 		margin: 4rem 0;
+		width: 80%;
 	}
 
 	.services_features-title {

@@ -22,6 +22,10 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
 </head>
 <body id="homepage">
     
@@ -67,10 +71,10 @@
 		<div class="container-fulid header_content">
 			<div class="row">
 				<div class="col-lg-6 header_content-text">
-					<h1 class="header_title">Our company overview tell a lot about us</h1>
+					<h1 class="header_title animated fadeInLeft">Our company overview tell a lot about us</h1>
 				</div>
 				<div class="col-lg-6">
-					<img class="header_img d-none d-sm-none d-md-block d-lg-block d-xl-block" src="assets/features.svg">
+					<img style="width: 70%; margin: auto;" class="header_img d-none d-sm-none d-md-block d-lg-block d-xl-block" src="assets/features.svg">
 				</div>
 			</div>
 		</div>
@@ -79,6 +83,9 @@
 	<section class="about_article">
 		<div class="container-fulid">
 			<div class="row">
+				<div class="col-lg-12">
+					<h2 class="about_article-title">Core values that have kept afloat and our clients greatful</h2>
+				</div>
 				<div class="col-lg-6">
 					<p class="about_article-text">Zetamind Consulting specialize in Operational Productivity Improvement through the efficient implementation of Microsoft Navision/Dynamics NAV ERP business systems and Dynamics CRM. Zetamind Consulting has focused their efforts on helping Manufacturing, Warehousing, and Distribution Companies get the most out of Microsoft Navision/Dynamics NAV ERP and Dynamics CRM.</p>
 
@@ -160,7 +167,7 @@
 					</div>
 					<div class="history_content">
 						<h5 class="history_content-title">Looking for a First-Class Business Plan Consultant?</h5>
-						<a href="#" class="btn btn-default">GET IN TOUCH</a>
+						<a href="#" class="btn btn-default history_btn">GET IN TOUCH</a>
 					</div>
 				</div>
 			</div>
@@ -204,7 +211,90 @@
 
 	<!-- custom script -->
 	<script>
+		window.sr = ScrollReveal();
+		sr.reveal('.navbar', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
 
+		sr.reveal('.about_article-title', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.about_article-text', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.start_title', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.start_text', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.start_img', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.start_subtitle', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.start_card', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.start_card-title', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.start_card-text', {
+			duration: 2000,
+			origin: 'right',
+			distance: '10px'
+		});
+
+		sr.reveal('.history_title', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('."history_content-text', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.history_content-text', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
+
+		sr.reveal('.history_btn', {
+			duration: 2000,
+			origin: 'bottom',
+			distance: '10px'
+		});
 	</script>
 
 </body>

@@ -1,4 +1,61 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600,700,800,900&display=swap");
+.header_title {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s; }
+
+.header_subtitle {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s; }
+
+.btn-default {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s; }
+
+.values_img {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s; }
+
+.values_card-text {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s; }
+
+.contact_title {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s; }
+
+.bg_offset {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s; }
+
+.contact_form {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s; }
+
+.ball_one, .ball_two, .ball_four, .ball_three {
+  -webkit-animation: rotation 2s infinite linear; }
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(359deg); } }
+
 body {
   margin: 0 5vw; }
 
@@ -19,7 +76,9 @@ body {
 
 @media only screen and (min-width: 768px) {
   .header_title {
-    font-size: 6rem; } }
+    font-size: 6rem; }
+  .products {
+    height: 50vh; } }
 
 .btn-default {
   font-size: 1.3rem;
@@ -187,7 +246,12 @@ header .header_content-img {
       font-size: 1.6rem; }
 
 .about_article {
-  padding: 20vh 0; }
+  padding: 5vh 0; }
+  .about_article .about_article-title {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 5vh;
+    color: #054DA1; }
   .about_article .about_article-text {
     font-size: 1.6rem; }
 
@@ -245,14 +309,20 @@ header .header_content-img {
       font-size: 1.6rem; }
 
 .services_article {
-  padding: 20vh 0; }
+  padding: 5vh 0; }
+  .services_article .services_article-title {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 5vh;
+    color: #054DA1; }
   .services_article .services_article-text {
     font-size: 1.6rem; }
 
 .services_features {
   padding: 10vh 0 20vh 0; }
   .services_features .services_features-img {
-    margin: 4rem 0; }
+    margin: 4rem 0;
+    width: 80%; }
   .services_features .services_features-title {
     font-size: 1.6rem;
     font-weight: 600; }
@@ -268,7 +338,7 @@ header .header_content-img {
     color: #054DA1; }
 
 .products {
-  padding: 20vh 0 10vh 0; }
+  padding-top: 20vh; }
   .products .products_title {
     font-size: 3rem;
     font-weight: 600;

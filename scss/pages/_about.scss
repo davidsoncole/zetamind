@@ -1,7 +1,14 @@
 // about page
 
 .about_article {
-	padding: 20vh 0;
+	padding: 5vh 0;
+
+	.about_article-title {
+		font-size: 4rem;
+		font-weight: 600;
+		margin-bottom: 5vh;
+		color: $color-primary;
+	}
 
 	.about_article-text {
 		font-size: 1.6rem;
