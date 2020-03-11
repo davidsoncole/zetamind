@@ -57,7 +57,8 @@
     -webkit-transform: rotate(359deg); } }
 
 body {
-  margin: 0 5vw; }
+  margin: 0 5vw;
+  overflow-x: hidden; }
 
 html {
   font-size: 10px; }
