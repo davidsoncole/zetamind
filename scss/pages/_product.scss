@@ -182,3 +182,72 @@
 .btn-secondary, .btn-primary {
 	font-size: 1.2rem;
 }
+
+.brochure_form {
+	padding: 2rem;
+
+	.col-12 {
+		padding: 1rem;
+	}
+
+	.form-control {
+		font-size: 1.3rem;
+	}
+}
+
+.demo_form {
+	padding: 2rem;
+
+	.col-12 {
+		padding: 1rem;
+	}
+
+	.form-control {
+		font-size: 1.3rem;
+	}
+}
+
+.sage {
+	padding-bottom: 20vh;
+
+	.heading {
+
+		.captions {
+			margin-bottom: 4rem;
+		}
+	}
+
+	.box {
+		padding: 1rem;
+		background-color: $color-primary;
+		font-size: 1.6rem;
+		font-weight: bold;
+		color: #fff;
+	}
+
+	.red {
+		margin-top: 2rem;
+	}
+
+	.green {
+		margin-bottom: 8rem;
+	}
+
+	.products_title {
+		font-size: 3rem;
+		font-weight: 600;
+		color: $color-primary;
+		margin-bottom: 2rem;
+	}
+
+	.products_subtitle {
+		font-size: 1.6rem;
+		font-weight: bold;
+		color: $color-primary;
+		margin-top: 1rem;
+	}
+
+	.captions {
+		font-size: 1.6rem;
+	}
+}

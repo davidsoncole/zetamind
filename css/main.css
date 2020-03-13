@@ -100,13 +100,6 @@ body {
   -o-transition: all ease 1s;
   transition: all ease 1s; }
 
-.brochure_form {
-  padding: 2rem; }
-  .brochure_form .col-12 {
-    padding: 1rem; }
-  .brochure_form .form-control {
-    font-size: 1.3rem; }
-
 footer {
   border-top: 0.2rem solid #054DA1;
   padding: 2rem 0; }
@@ -457,6 +450,47 @@ header .header_content-img {
 
 .btn-secondary, .btn-primary {
   font-size: 1.2rem; }
+
+.brochure_form {
+  padding: 2rem; }
+  .brochure_form .col-12 {
+    padding: 1rem; }
+  .brochure_form .form-control {
+    font-size: 1.3rem; }
+
+.demo_form {
+  padding: 2rem; }
+  .demo_form .col-12 {
+    padding: 1rem; }
+  .demo_form .form-control {
+    font-size: 1.3rem; }
+
+.sage {
+  padding-bottom: 20vh; }
+  .sage .heading .captions {
+    margin-bottom: 4rem; }
+  .sage .box {
+    padding: 1rem;
+    background-color: #054DA1;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #fff; }
+  .sage .red {
+    margin-top: 2rem; }
+  .sage .green {
+    margin-bottom: 8rem; }
+  .sage .products_title {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #054DA1;
+    margin-bottom: 2rem; }
+  .sage .products_subtitle {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #054DA1;
+    margin-top: 1rem; }
+  .sage .captions {
+    font-size: 1.6rem; }
 
 header {
   padding-top: 20vh;

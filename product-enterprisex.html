@@ -73,8 +73,8 @@
 				<div class="col-lg-6">
 					<h2 class="products_title">Lorem ipsum dolor sit amet, ipsum pulvinar suscipit, etiam interdum</h2>
 					<p class="products_subtitle">Lorem ipsum dolor sit amet, ipsum pulvinar suscipit, etiam interdum mattis eget nulla, duis ultricies consectetuer tellus justo, vel odio volutpat nec sodales luctus torquent. Sit vitae dolor.</p>
-					<a href="#" class="btn btn-default">VIEW DEMO</a>
-					<button href="#" class="btn btn-default" data-toggle="modal" data-target="#brochure_form">DOWNLOAD BROCHURE</button>
+					<button href="#" class="btn btn-default demo_btn" data-toggle="modal" data-target="#demo_form">VIEW DEMO</button>
+					<button href="#" class="btn btn-default download_btn" data-toggle="modal" data-target="#brochure_form">DOWNLOAD BROCHURE</button>
 				</div>
 				<div class="col-lg-6 text-center">
 					<div class="bd-example">
@@ -89,7 +89,6 @@
 					      	<div class="text-center">
 					      		<img style="margin: auto;" src="assets/enterprisex.png" class="d-block" alt="...">
 					      	</div>
-					        
 					      </div>
 					      <div class="carousel-item text-center">
 					        <img class="img_size" src="assets/Dashboard-Customer.png" class="d-block" alt="...">
@@ -115,40 +114,81 @@
 		</div>
 	</header>
 
-	<!-- Modal -->
+	<!-- brochure Modal -->
 	<div class="modal fade" id="brochure_form" tabindex="-1" role="dialog" aria-labelledby="brochureTitle" aria-hidden="true">
 	  <div class="modal-dialog modal-dialog-centered" role="document">
-	    <div class="modal-content">
-		    <div class="modal-header">
-		        <h5 class="modal-title" id="brochureTitle">Fill form to continue</h5>
-		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-		          	<span aria-hidden="true" style="font-size: 25px;">&times;</span>
-		        </button>
+	  	<form>
+		    <div class="modal-content">
+			    <div class="modal-header">
+			        <h5 class="modal-title" id="brochureTitle">Fill form to continue</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          	<span aria-hidden="true" style="font-size: 25px;">&times;</span>
+			        </button>
+			    </div>
+			    <div class="modal-body brochure_form">
+					<div class="row">
+					    <div class="col-12">
+					      <input type="text" class="form-control" placeholder="Full Name" required="true">
+					    </div>
+					    <div class="col-12">
+					      <input type="email" class="form-control" id="Email" placeholder="Email" required="true">
+					    </div>
+					    <div class="col-12">
+					      <input type="number" class="form-control" id="" placeholder="Mobile Number" required="true">
+					    </div>
+					    <div class="col-12">
+					    	<input type="text" class="form-control" id="Address" placeholder="Address" required="true">
+					    </div>
+					    <div class="col-12">
+					      <input type="text" class="form-control" placeholder="Company Name" required="true">
+					    </div>
+					</div>
+			    </div>
+			    <div class="modal-footer">
+			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        <a href="thanks.html" class="btn btn-primary">Send to download</a>
+			    </div>
 		    </div>
-		    <div class="modal-body brochure_form">
-				<div class="row">
-				    <div class="col-12">
-				      <input type="text" class="form-control" placeholder="Full Name" required="true">
-				    </div>
-				    <div class="col-12">
-				      <input type="email" class="form-control" id="Email" placeholder="Email" required="true">
-				    </div>
-				    <div class="col-12">
-				      <input type="number" class="form-control" id="" placeholder="Mobile Number" required="true">
-				    </div>
-				    <div class="col-12">
-				    	<input type="text" class="form-control" id="Address" placeholder="Address" required="true">
-				    </div>
-				    <div class="col-12">
-				      <input type="text" class="form-control" placeholder="Company Name" required="true">
-				    </div>
-				</div>
+	    </form>
+	  </div>
+	</div>
+
+	<!-- demo Modal -->
+	<div class="modal fade" id="demo_form" tabindex="-1" role="dialog" aria-labelledby="demoTitle" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered" role="document">
+	  	<form>
+		    <div class="modal-content">
+			    <div class="modal-header">
+			        <h5 class="modal-title" id="demoTitle">Fill form to checkout demo</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          	<span aria-hidden="true" style="font-size: 25px;">&times;</span>
+			        </button>
+			    </div>
+			    <div class="modal-body demo_form">
+					<div class="row">
+					    <div class="col-12">
+					      <input type="text" class="form-control" placeholder="Full Name" required="true">
+					    </div>
+					    <div class="col-12">
+					      <input type="email" class="form-control" id="Email" placeholder="Email" required="true">
+					    </div>
+					    <div class="col-12">
+					      <input type="number" class="form-control" id="" placeholder="Mobile Number" required="true">
+					    </div>
+					    <div class="col-12">
+					    	<input type="text" class="form-control" id="Address" placeholder="Address" required="true">
+					    </div>
+					    <div class="col-12">
+					      <input type="text" class="form-control" placeholder="Company Name" required="true">
+					    </div>
+					</div>
+			    </div>
+			    <div class="modal-footer">
+			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        <a href="thanks.html" class="btn btn-primary">Send to download</a>
+			    </div>
 		    </div>
-		    <div class="modal-footer">
-		        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-		        <a href="thanks.html" class="btn btn-primary">Send to download</a>
-		    </div>
-	    </div>
+		</form>
 	  </div>
 	</div>
 

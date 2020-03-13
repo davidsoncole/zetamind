@@ -24,7 +24,7 @@
 
 </head>
 <body id="homepage">
-    
+
 	<nav class="navbar navbar-expand-lg navbar-light fixed-top">
 	  	<a class="navbar-brand" href="index.html">
 	  		<img class="nav_img" src="assets/logo_dark.jpg">
@@ -69,7 +69,7 @@
 				<div class="col-lg-6">
 					<h2 class="products_title">Sage Business Cloud</h2>
 					<p class="products_subtitle">Whether you are running a small or medium business, take care of your finances, operations, and more with Sage Business Cloud.</p>
-					<a href="#" class="btn btn-default">GET IN TOUCH</a>
+					<button href="#" class="btn btn-default" data-toggle="modal" data-target="#brochure_form">DOWNLOAD BROCHURE</button>
 				</div>
 				<div class="col-lg-6 text-center">
 					<img style="width: 20vw" class="products_img" src="assets/Sage.png">
@@ -78,400 +78,131 @@
 		</div>
 	</header>
 
-	<section>
-		<div class="container-fulid">
-			<div class="row">
-				<div class="col-lg-12">
-					<p>Accounting and Financials</p>
-				</div>
-				<div class="col-lg-6">
-					<span>Sage Business Cloud</span>
-					<h4>Accounting</h4>
-					<p>Manage invoicing, cash flow, VAT, payments & more, from any device in the cloud.</p>
+	<!-- brochure Modal -->
+	<div class="modal fade" id="brochure_form" tabindex="-1" role="dialog" aria-labelledby="brochureTitle" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered" role="document">
+	  	<form>
+		    <div class="modal-content">
+			    <div class="modal-header">
+			        <h5 class="modal-title" id="brochureTitle">Fill form to continue</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          	<span aria-hidden="true" style="font-size: 25px;">&times;</span>
+			        </button>
+			    </div>
+			    <div class="modal-body brochure_form">
 					<div class="row">
-						<div class="col-lg-6">
-							<p>Anywhere, anytime</p>
-							<span>Get powerful features on your computer, tablet and phone, whenever you need them.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Collaboration</p>
-							<span>Lighten the workload - your team and accountant work on real-time data.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Simplicity</p>
-							<span>No experience necessary. We add new features all the time to make running your business easier.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Compliant</p>
-							<span>We keep on top of the latest legislation for you.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Secure</p>
-							<span>With bank-level security and no need for backups, peace of mind comes as standard.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Support</p>
-							<span>As you grow your business, we're available via online support.</span>
-						</div>
+					    <div class="col-12">
+					      <input type="text" class="form-control" placeholder="Full Name" required="true">
+					    </div>
+					    <div class="col-12">
+					      <input type="email" class="form-control" id="Email" placeholder="Email" required="true">
+					    </div>
+					    <div class="col-12">
+					      <input type="number" class="form-control" id="" placeholder="Mobile Number" required="true">
+					    </div>
+					    <div class="col-12">
+					    	<input type="text" class="form-control" id="Address" placeholder="Address" required="true">
+					    </div>
+					    <div class="col-12">
+					      <input type="text" class="form-control" placeholder="Company Name" required="true">
+					    </div>
 					</div>
-				</div>
-				<div class="col-lg-6">
-					<span>Sage Business Cloud</span>
-					<h4>Sage 50cloud Pastel Partner & Sage 50cloud Pastel Xpress</h4>
-					<p>Sage 50cloud Pastel Partner gives small business owners and SMEs the power of accounting and business management in one time-saving solution.</p>
-					<p>Sage 50cloud Pastel Xpress offers the power and productivity of a trusted desktop solution and gives you everything you need to run your business wherever you are through a seamless integration with Microsoft Office 365. Run your business more efficiently with a time-saving, in-depth solution to manage your accounting, invoicing, cash flow, inventory, VAT, and more.</p>
-					<div class="row">
-						<div class="col-lg-6">
-							<p>Smart cloud connected accounting software</p>
-							<span>Sage 50cloud Pastel is the next generation of Sage Pastel products and is the start of your journey to Sage Business Cloud. With Sage 50cloud Pastel Partner you can expect exciting cloud connected features and functionality that won’t be available in any other Sage accounting products. Sage 50cloud Pastel Partner offers up to twenty users, unlimited company licenses, and cloud connected accounting functionality that every small business needs. And of course, you can rest assured that Sage 50cloud Pastel Partner is SARS compliant.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Sage Contact</p>
-							<span>Stop toggling between Outlook & Sage, Sage 50cloud Pastel Partner syncs your records, contact details, balances, transaction history and documents with Outlook; so no matter where you are (desktop, cloud or mobile) you have all the information you need to quickly & efficiently connect with your customers.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Sage Capture</p>
-							<span>Ditch the paper and never lose a receipt again by photographing expenses, invoices or other paperwork with Sage Capture, saving them to One Drive and posting transactions to Sage 50cloud Pastel Partner, all from your mobile or tablet.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Sage 50cloud Intelligence Reporting</p>
-							<span>Unleash the power of Sage 50cloud Pastel Partner data into Microsoft Excel, and either build powerful and in-depth reports with our simple drag-and-drop designer or use one of our smart templates; to get a richer, deeper understanding of your business.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Cloud Backup</p>
-							<span>Stop worrying about taking backups or whether you’ve remembered to take the USB stick home on a weekend – Sage 50cloud Pastel Partner automatically backups up to the cloud and notifies you of any problems. One simple setup and it just works.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Microsoft Office 365 Integration</p>
-							<span>Microsoft Office 365 is integrated with Sage 50cloud Pastel Partner, giving you the benefit of smart integration features plus the latest cloud and mobile editions of the Office apps; alongside powerful collaboration tools like SharePoint and Skype for Business. All with help & advice from our award-winning support team.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Accept payments from your customers</p>
-							<span>Sage Business Cloud Payments is a safe and easy way for customers to pay you, using a range of simple, secure, and reliable payment solutions. Accept payments online, face-to-face, over the phone, and through invoices with all business-critical features included as standard.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Direct Bank Feeds</p>
-							<span>Say goodbye to re-keying payments and breeze through reconciliation routines by connecting Sage 50cloud Pastel Partner directly with your bank account. Watch your transactions flow seamlessly into your accounts as you simply confirm what you want to post or match.</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<span>On-premise</span>
-					<h4>Sage 200 Evolution</h4>
-					<p>Are you finding it difficult to get an integrated and holistic view of your business? If so, it is time to revolutionise the way that you do business with Sage 200 Evolution. By bringing all the aspects of your operating environment together, Sage 200 Evolution is a Business Management Solution that gives you the ability to control your financial situation as well as your relationships with your customers, suppliers and employees.</p>
-					<div class="row">
-						<div class="col-lg-6">
-							<p>Accountants recommend Sage Pastel Accounting</p>
-							<span>For over 20 years, Sage Pastel has been the trusted name in business and financial software. Sage 200 Evolution has been developed for the African Market and comply with IFRS accounting standards and local taxes for West Africa.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Fully integrated business management application</p>
-							<span>Sage 200 Evolution is built with a wide range of features and functionality, complemented by a number of add-on modules allowing the solution to be a scalable, flexible and a robust management tool for a growing business. Integrated Business Activity Management functionality is woven into the core accounting package, providing you with a holistic view of your business as both accounting and operational data reside in the same system.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Lowest total cost of ownership</p>
-							<span>Unlike other vendors who bill extra for support services and demand large teams of expensive skills to deploy a Business Management Solution functionality, our solutions offer the lowest total cost of ownership because they are quicker to deploy and requires less configuration / training.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Easy to use</p>
-							<span>With many years of experience in software development and with thousands of businesses using our software, Sage Pastel has an in-depth understanding of what makes software usable and flexible. Sage 200 Evolution is both intuitive and easy to implement and use.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Specialised modules for industry specific requirements</p>
-							<span>Sage 200 Evolution has a range of add-on modules that cater for industry specific needs. The modules seamlessly integrate with Sage 200 Evolution’s core financials, are cost-effective and can be rapidly deployed.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Simplified reporting</p>
-							<span>Sage 200 Evolution Intelligence Reporting allows you to manipulate data in any way you need. Design specialised reports that give you a competitive edge. See trends in your business that would otherwise be difficult to recognise. Slice and dice data through “what-if” scenarios enabling you to run ideas through your financials.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Improve and enhance customer and supplier relations</p>
-							<span>Sage 200 Evolution gives your business the competitive edge. It is a very powerful tool that allows you to track, analyse and manage customer and supplier interactions within your business, allowing you to be proactive in meeting and exceeding their demands. Sales Force Automation helps you track and manage sales opportunities which are very precious in today's competitive business environment.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Access to skill</p>
-							<span>Because Sage Pastel Accounting is so widely used by thousands of clients, the resource pool is large which means that skilled staff are easy to find.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Increased productivity</p>
-							<span>Use Sage 200 Evolution's unique Business Activity functionality to set and manage employee tasks and productivity. View graphical representations of which activities have been closed and which are still open.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Backed by an extensive national service and support infrastructure</p>
-							<span>With our award winning contact centre in South Africa supporting our in-country business partners,you will be assured of first class support.</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+			    </div>
+			    <div class="modal-footer">
+			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        <a href="thanks.html" class="btn btn-primary">Send to download</a>
+			    </div>
+		    </div>
+	    </form>
+	  </div>
+	</div>
 
-	<section>
+	<section class="sage">
 		<div class="container-fulid">
 			<div class="row">
 				<div class="col-lg-12">
-					<h4>People and payroll</h4>
+					<h4 class="products_title">Business management</h4>
 				</div>
 				<div class="col-lg-6">
-					<span>Sage Business Cloud</span>
-					<h4>Payroll</h4>
-					<p>Confidently manage your payroll with a simple, reliable and flexible online payroll system; no matter what your level of payroll experience.</p>
-					<div class="row">
-						<div class="col-lg-6">
-							<p>Payments and deductions</p>
-							<span>Breeze through your pay run. Enter hourly pay or salaries and we'll handle the calculations.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Simple and flexible online solutions</p>
-							<span>Payroll helps you prevent errors and handle changes easily. Simply amend a previous pay run if you need to and we'll handle all the adjustments for you.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Real time calculations</p>
-							<span>Payslip values are always calculated “real-time”, ensuring that you are always looking at the “final” correct value.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Simple and easy payroll</p>
-							<span>We're always on hand with phone and email support from our award-winning SA-based support team, We do web chat too. Our experts are ready to help – any time of the day or night.</span>
-						</div>
-					</div>
+					<span class="box">Sage X3</span>
+					<p class="captions red">Sage Business Cloud is changing how businesses compete and grow, by delivering faster, simpler and flexible financial, supply chain and production management at a fraction of the cost and complexity of typical ERP systems.</p>
 				</div>
-				<div class="col-lg-6">
-					<span>On-premise</span>
-					<h4>Sage 300 People</h4>
-					<p>Sage 300 People comprises an agile, innovative and cost-effective HR solution that effortlessly and powerfully processes HR and payroll functions in your business. Its world-class capabilities include fast and efficient system implementation, security, stability and improved processes, real-time online design for easy monitoring and reduced risk and universal calculation engine for simpler calculations across functions.</p>
-					<div class="row">
-						<div class="col-lg-6">
-							<p>Cutting back on risk by reducing errors</p>
-							<span>Sage 300 People gives you real-time design and easily-monitored processing. The risk of human error is significantly reduced with this high-tech business management solution.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Familiar user interface</p>
-							<span>Customise every user’s working space as they need it, ensuring that it becomes familiar and easy to use and making for a more efficient environment. The system includes already familiar formats and functionality, but each user’s views can be reordered to suit them.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>HR Features</p>
-							<span>Replace employee files with e-files, and save space in your offices. Provide employees and managers with mobile access to information. Draw reports and send them directly to users from the system</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Improved processes on a stable and secure platform</p>
-							<span>High-tech security ensures your and your users’ data is safe, while our improved processing power means you’re running top-level software. The design of Sage 300 People is complemented by SQL as a unified platform.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Powerful payroll features</p>
-							<span>Create and experience unlimited companies, hierarchies, users, employees and payment configurations. Get the latest updates in terms of legislated statutes and always stay compliant. Perform a range of calculations to ensure payments are done accurately and more.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Simple implementation through smart design</p>
-							<span>Custom-built software of this calibre costs far more to build and a much longer time to implement, but Sage 300 People is designed with simplicity, speed, and efficiency in mind. You’ll experience a simple and fast implementation process.</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<span>Sage Business Cloud</span>
-					<h4>Sage X3 HR</h4>
-					<p>Empower your managers to improve business performance and streamline operations with unified HR and financial data, automated processes and workflows. Ensure compliance and provide real-time, secure HR data for your stakeholders. Ensure higher employee retention and engagement with HR self-service delivery and manage employee development with faster, simpler access to payroll and core HR information. Go where your business takes you with constant access to HR services and key performance indicators through mobile access on any device and dedicated apps.</p>
-					<p>Benefits</p>
+				<div class="col-lg-6"></div>
+				<div class="col-lg-4">
+					<p class="products_subtitle">Financial management</p>
+					<span class="captions">Control your bottom line with accuracy and real-time global visibility, while meeting local requirements.</span>
 					<ul>
-						<li>Efficiency and cost control Empower your managers to improve business performance with unified HR and financial data, forecasting present and future costs while simplifying operations with automated workflows.</li>
-						<li>Gain compliance and visibility Ensure compliance and provide real-time, secure HR data for your internal and external stakeholders with document management, dashboards, self-service intelligence and reporting tools.</li>
-						<li>Engage employees Ensure higher employee retention and engagement with HR self-service delivery and manage employee development with faster, simpler access to payroll and core HR information.</li>
-						<li>Serve your mobile workforce Go where your business takes you with constant access to HR services and key performance indicators through mobile access on any device and dedicated apps.</li>
+						<li class="captions">Budgets and accounting</li>
+						<li class="captions">Fixed assets</li>
+						<li class="captions">Financial reporting</li>
 					</ul>
 				</div>
-				<div class="col-lg-6">
-					<span>On-premise</span>
-					<h4>Sage Payslips and Infoslips</h4>
-					<p>Sage has a range of official pre-printed payslips, including laser and continuous payslips. These ready-to-use, confidential payslips will provide your business with the professional edge it deserves and will instil a sense of confidence and authenticity for employees who often need to present payslips as proof of earnings to financial institutions.</p>
-					<p>InfoSlips transform the paper payslip into a digital total compensation statement. Employees that use InfoSlips experience an interactive document that allows them to manage leave, query transactions, drill through to detail on earnings, deductions and company contributions information.</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section>
-		<div class="container-fulid">
-			<div class="row">
-				<div class="col-lg-12">
-					<h4>Business management</h4>
-				</div>
-				<div class="col-lg-6">
-					<span>Sage Business Cloud</span>
-					<h4>Sage X3</h4>
-					<p>Sage Business Cloud is changing how businesses compete and grow, by delivering faster, simpler and flexible financial, supply chain and production management at a fraction of the cost and complexity of typical ERP systems.</p>
-					<div class="row">
-						<div class="col-lg-6">
-							<p>Financial management</p>
-							<span>Control your bottom line with accuracy and real-time global visibility, while meeting local requirements.</span>
-							<ul>
-								<li>Budgets and accounting</li>
-								<li>Fixed assets</li>
-								<li>Financial reporting</li>
-							</ul>
-						</div>
-						<div class="col-lg-6">
-							<p>Supply chain management</p>
-							<span>Keep up with demand and ensure optimal efficiencies through real-time monitoring of inventory.</span>
-							<ul>
-								<li>Purchasing</li>
-								<li>Inventory management</li>
-								<li>Sales management</li>
-								<li>Customer service</li>
-							</ul>
-						</div>
-						<div class="col-lg-6">
-							<p>Production management</p>
-							<span>Market quickly and efficiently by managing all your manufacturing processes with one system.</span>
-							<ul>
-								<li>BOM planning</li>
-								<li>Shop floor control</li>
-								<li>Quality control</li>
-								<li>Project management</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<span>On-premise</span>
-					<h4>Sage 200 Evolution</h4>
-					<p>Are you finding it difficult to get an integrated and holistic view of your business ? If so, it is time to revolutionise the way that you do business with Sage 200 Evolution. By bringing all the aspects of your operating environment together, Sage 200 Evolution is a Business Management Solution that gives you the ability to control your financial situation as well as your relationships with your customers, suppliers and employees.</p>
-					<div class="row">
-						<div class="col-lg-6">
-							<p>Accountants recommend Sage Pastel Accounting</p>
-							<span>For over 20 years, Sage Pastel has been the trusted name in business and financial software. Sage 200 Evolution has been developed for the African Market and comply with IFRS accounting standards and local taxes for West Africa.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Fully integrated business management application</p>
-							<span>Sage 200 Evolution is built with a wide range of features and functionality, complemented by a number of add-on modules allowing the solution to be a scalable, flexible and a robust management tool for a growing business. Integrated Business Activity Management functionality is woven into the core accounting package, providing you with a holistic view of your business as both accounting and operational data reside in the same system.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Lowest total cost of ownership</p>
-							<span>Unlike other vendors who bill extra for support services and demand large teams of expensive skills to deploy a Business Management Solution functionality, our solutions offer the lowest total cost of ownership because they are quicker to deploy and requires less configuration / training.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Easy to use</p>
-							<span>With many years of experience in software development and with thousands of businesses using our software, Sage Pastel has an in-depth understanding of what makes software usable and flexible. Sage 200 Evolution is both intuitive and easy to implement and use.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Specialised modules for industry specific requirements</p>
-							<span>Sage 200 Evolution has a range of add-on modules that cater for industry specific needs. The modules seamlessly integrate with Sage 200 Evolution’s core financials, are cost-effective and can be rapidly deployed.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Simplified reporting</p>
-							<span>Sage 200 Evolution Intelligence Reporting allows you to manipulate data in any way you need. Design specialised reports that give you a competitive edge. See trends in your business that would otherwise be difficult to recognise. Slice and dice data through “what-if” scenarios enabling you to run ideas through your financials.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Improve and enhance customer and supplier relations</p>
-							<span>Sage 200 Evolution gives your business the competitive edge. It is a very powerful tool that allows you to track, analyse and manage customer and supplier interactions within your business, allowing you to be proactive in meeting and exceeding their demands. Sales Force Automation helps you track and manage sales opportunities which are very precious in today's competitive business environment.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Access to skill</p>
-							<span>Because Sage Pastel Accounting is so widely used by thousands of clients, the resource pool is large which means that skilled staff are easy to find.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Increased productivity</p>
-							<span>Use Sage 200 Evolution's unique Business Activity functionality to set and manage employee tasks and productivity. View graphical representations of which activities have been closed and which are still open.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Backed by an extensive national service and support infrastructure</p>
-							<span>With our award winning contact centre in South Africa supporting our in-country business partners,you will be assured of first class support.</span>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<span>On-premise</span>
-					<h4>Sage 300 Cloud</h4>
-					<p>Sage 300cloud gives you business-wide visibility over financial, operational, sales, and customer service departments, with customised dashboards, reporting and business intelligence options.</p>
+				<div class="col-lg-4">
+					<p class="products_subtitle">Supply chain management</p>
+					<span class="captions">Keep up with demand and ensure optimal efficiencies through real-time monitoring of inventory.</span>
 					<ul>
-						<li>BMS for medium to large businesses</li>
-						<li>Access transactional data anytime, anywhere</li>
-						<li>Improve productivity with real-time key performance indicators and Visual Process Flows</li>
+						<li class="captions">Purchasing</li>
+						<li class="captions">Inventory management</li>
+						<li class="captions">Sales management</li>
+						<li class="captions">Customer service</li>
 					</ul>
-					<div class="row">
-						<div class="col-lg-6">
-							<p>360° View of your business</p>
-							<span>Sage 300cloud gives business owners the ability to access and view their entire business operation from one place. Our integrated solution provides visibility, transparency, and collaborative communication.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>A solution that grows with your business</p>
-							<span>As your business grows, Sage 300cloud allows you to add extensive features and to embrace more functionality to suit your expanding environment.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Be competitive in your industry</p>
-							<span>Use Sage’s end-to-end solution to keep your costs in check and to maximise profitability in a way that is faster and more efficient than your competitors.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Customised, personalised solution</p>
-							<span>Sage 300cloud is a flexible solution for which you can choose the edition that suits your business best, how best to deploy it, as well as which payment options work best for you.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Step out, log in</p>
-							<span>You can access Sage 300cloud from your desktop in the office or while you’re on the road, so that you never lose touch of how your business is performing.</span>
-						</div>
-					</div>
 				</div>
-				<div class="col-lg-6">
-					<span>Sage Business Cloud</span>
-					<h4>Intelligence Reporting</h4>
-					<p>Get started straight away with the ready-to-use reports, already formatted for you. To run a report, all you need to do is select the information you want to report on.</p>
-					<div class="row">
-						<div class="col-lg-6">
-							<p>Save time</p>
-							<span>View and analyse information quickly with a suite of powerful, pre-built reports and dashboards.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Gain control</p>
-							<span>Take control of your business data with financial reports that you are able to tweak and edit to suit your needs.</span>
-						</div>
-						<div class="col-lg-6">
-							<p>Take action</p>
-							<span>Get a bird’s eye view of your business with the ability to easily drill down into the details and get the insight you need to make better decisions.</span>
-						</div>
-					</div>
+				<div class="col-lg-4">
+					<p class="products_subtitle">Production management</p>
+					<span class="captions">Market quickly and efficiently by managing all your manufacturing processes with one system.</span>
+					<ul>
+						<li class="captions">BOM planning</li>
+						<li class="captions">Shop floor control</li>
+						<li class="captions">Quality control</li>
+						<li class="captions">Project management</li>
+					</ul>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section>
+	<section class="sage">
 		<div class="container-fulid">
 			<div class="row">
 				<div class="col-lg-12">
-					<h4>Solutions for accountants and partners</h4>
-					<p></p>
+					<h4 class="products_title">Solutions for accountants and partners</h4>
 				</div>
-				<div class="col-lg-6">
-					<h4>Bookkeeping for clients</h4>
-					<p>No matter how you, or your clients, choose to work - all Sage solutions are 100 % Making Tax Digital and GDPR ready.</p>
+				<div class="col-lg-12">
+					<span class="box">Book keeping for clients</span>
+					<p class="captions red">No matter how you, or your clients, choose to work - all Sage solutions are 100 % Making Tax Digital and GDPR ready.</p>
 					<div class="row">
-						<div class="col-lg-6">
-							<p>Unlock efficiencies</p>
-							<span>From direct bank feeds to receipt capture, we are investing heavily to automate all the manual data entry across your practice. Deep accounting functionality allows you to maximise your productivity.</span>
+						<div class="col-lg-4">
+							<p class="products_subtitle">Unlock efficiencies</p>
+							<span class="captions">From direct bank feeds to receipt capture, we are investing heavily to automate all the manual data entry across your practice. Deep accounting functionality allows you to maximise your productivity.</span>
 						</div>
-						<div class="col-lg-6">
-							<p>Ensure compliance</p>
-							<span>Confidently calculate and submit VAT returns directly. Link up with our Final Accounts, Corporation Tax, and Personal Tax applications to prepare and file accounts and tax returns with ease.</span>
+						<div class="col-lg-4">
+							<p class="products_subtitle">Ensure compliance</p>
+							<span class="captions">Confidently calculate and submit VAT returns directly. Link up with our Final Accounts, Corporation Tax, and Personal Tax applications to prepare and file accounts and tax returns with ease.</span>
 						</div>
-						<div class="col-lg-6">
-							<p>Add more value</p>
-							<span>Always being connected to live client data and powerful reporting provides opportunities for you to collaborate and offer more proactive and forward-looking advice.</span>
+						<div class="col-lg-4">
+							<p class="products_subtitle">Add more value</p>
+							<span class="captions green">Always being connected to live client data and powerful reporting provides opportunities for you to collaborate and offer more proactive and forward-looking advice.</span>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-6">
-					<h4>Education</h4>
-					<p>Expert advice, support, and education, Everything you need in one place.</p>
+			</div>
+			<div class="row py-5">
+				<div class="col-lg-12">
+					<span class="box">Education</span>
+					<p class="products_subtitle red">Create customized invoices</p>
+					<p class="captions">Expert advice, support, and education, Everything you need in one place.</p>
 					<div class="row">
-						<div class="col-lg-6">
-							<p>Accountant and bookkeeper hub</p>
-							<span>We are committed to helping you and your clients. Our hub for accountants and bookkeepers gives you one place to access all the latest news, advice and support on offer.</span>
+						<div class="col-lg-4">
+							<p class="products_subtitle">Accountant and bookkeeper hub</p>
+							<span class="captions">We are committed to helping you and your clients. Our hub for accountants and bookkeepers gives you one place to access all the latest news, advice and support on offer.</span>
 						</div>
-						<div class="col-lg-6">
-							<p>Help centre</p>
-							<span>Our help centre has everything you need to help you get the most from your software 24/7. Here you can gain access to help files, community, email us your queries, or speak to us on web chat or phone.</span>
+						<div class="col-lg-4">
+							<p class="products_subtitle">Help centre</p>
+							<span class="captions">Our help centre has everything you need to help you get the most from your software 24/7. Here you can gain access to help files, community, email us your queries, or speak to us on web chat or phone.</span>
 						</div>
-						<div class="col-lg-6">
-							<p>Community</p>
-							<span>Got a question? Ask everyone. Get quick answers to your questions from accounting professionals and Sage experts, just like you in the community.</span>
+						<div class="col-lg-4">
+							<p class="products_subtitle">Community</p>
+							<span class="captions">Got a question? Ask everyone. Get quick answers to your questions from accounting professionals and Sage experts, just like you in the community.</span>
 						</div>
 					</div>
 				</div>

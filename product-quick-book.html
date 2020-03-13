@@ -69,7 +69,7 @@
 				<div class="col-lg-6">
 					<h2 class="products_title">QuickBooks Online makes it easy to work from anywhere!</h2>
 					<p class="products_subtitle">QuickBooks Online allows you to run your small business seamlessly from the cloud. Because it’s cloud accounting software, your data is automatically synced across your devices so that your work is never lost. It also means you can run your business from the office, the car or the kitchen table.</p>
-					<a href="#" class="btn btn-default">GET IN TOUCH</a>
+					<button href="#" class="btn btn-default" data-toggle="modal" data-target="#brochure_form">DOWNLOAD BROCHURE</button>
 				</div>
 				<div class="col-lg-6 text-center">
 					<img class="products_img" src="assets/quickbooks.png">
@@ -77,6 +77,45 @@
 			</div>
 		</div>
 	</header>
+
+	<!-- brochure Modal -->
+	<div class="modal fade" id="brochure_form" tabindex="-1" role="dialog" aria-labelledby="brochureTitle" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered" role="document">
+	  	<form>
+		    <div class="modal-content">
+			    <div class="modal-header">
+			        <h5 class="modal-title" id="brochureTitle">Fill form to continue</h5>
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          	<span aria-hidden="true" style="font-size: 25px;">&times;</span>
+			        </button>
+			    </div>
+			    <div class="modal-body brochure_form">
+					<div class="row">
+					    <div class="col-12">
+					      <input type="text" class="form-control" placeholder="Full Name" required="true">
+					    </div>
+					    <div class="col-12">
+					      <input type="email" class="form-control" id="Email" placeholder="Email" required="true">
+					    </div>
+					    <div class="col-12">
+					      <input type="number" class="form-control" id="" placeholder="Mobile Number" required="true">
+					    </div>
+					    <div class="col-12">
+					    	<input type="text" class="form-control" id="Address" placeholder="Address" required="true">
+					    </div>
+					    <div class="col-12">
+					      <input type="text" class="form-control" placeholder="Company Name" required="true">
+					    </div>
+					</div>
+			    </div>
+			    <div class="modal-footer">
+			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        <a href="thanks.html" class="btn btn-primary">Send to download</a>
+			    </div>
+		    </div>
+	    </form>
+	  </div>
+	</div>
 
 	<section class="qbook">
 		<div class="container">
