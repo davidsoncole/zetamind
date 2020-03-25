@@ -1,226 +1,468 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
     <!-- taskbar -->
     <meta name="theme-color" content="#ffffff" />
 
-	<title>Zetamind Consulting Limited</title>
+    <title>Zetamind Consulting Limited</title>
 
-	<link rel="shortcut icon" type="image/png" href=""/>
+    <link rel="shortcut icon" type="image/png" href="" />
 
-	<!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Bootstrap core CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
 
     <!-- Font Awesome CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <!-- Stylesheet -->
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
 
-</head>
-<body id="homepage">
-    
-	<nav class="navbar navbar-expand-lg navbar-light fixed-top">
-	  	<a class="navbar-brand" href="index.html">
-	  		<img class="nav_img" src="assets/logo_dark.jpg">
-	   		<span class="sr-only">(current)</span>
-		</a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
 
-	  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-	    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-	      <li class="nav-item">
-	        <a class="nav-link" href="about.html">ABOUT</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="industry.html">INDUSTRY</a>
-	      </li>
-	      <li class="nav-item dropdown">
-		    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">PRODUCTS</a>
-		    <div class="dropdown-menu">
-		      <a class="dropdown-item" href="product-microsoft-nav.html">Microsoft Dynamics 365</a>
-		      <div class="dropdown-divider"></div>
-		      <a class="dropdown-item" href="product-enterprisex.html">Enterprise X</a>
-		      <div class="dropdown-divider"></div>
-		      <a class="dropdown-item" href="product-quick-book.html">Quick Book</a>
-		      <div class="dropdown-divider"></div>
-		      <a class="dropdown-item" href="product-sage.html">Sage</a>
-		      <div class="dropdown-divider"></div>
-		      <a class="dropdown-item" href="product-custom-software.html">Custom Software</a>
-		    </div>
-		  </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="contact.html">CONTACT</a>
-	      </li>
-	    </ul>
-	  </div>
-	</nav>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
-	<header class="products">
-		<div class="container-fulid">
-			<div class="row">
-				<div class="col-lg-6">
-					<h2 class="products_title">QuickBooks Online makes it easy to work from anywhere!</h2>
-					<p class="products_subtitle">QuickBooks Online allows you to run your small business seamlessly from the cloud. Because it’s cloud accounting software, your data is automatically synced across your devices so that your work is never lost. It also means you can run your business from the office, the car or the kitchen table.</p>
-					<button href="#" class="btn btn-default" data-toggle="modal" data-target="#brochure_form">DOWNLOAD BROCHURE</button>
-				</div>
-				<div class="col-lg-6 text-center">
-					<img class="products_img" src="assets/quickbooks.png">
-				</div>
-			</div>
-		</div>
-	</header>
+  </head>
+  <body id="homepage">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <a class="navbar-brand" href="index.html">
+        <img class="nav_img" src="assets/logo_dark.jpg" />
+        <span class="sr-only">(current)</span>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-	<!-- brochure Modal -->
-	<div class="modal fade" id="brochure_form" tabindex="-1" role="dialog" aria-labelledby="brochureTitle" aria-hidden="true">
-	  <div class="modal-dialog modal-dialog-centered" role="document">
-	  	<form>
-		    <div class="modal-content">
-			    <div class="modal-header">
-			        <h5 class="modal-title" id="brochureTitle">Fill form to continue</h5>
-			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			          	<span aria-hidden="true" style="font-size: 25px;">&times;</span>
-			        </button>
-			    </div>
-			    <div class="modal-body brochure_form">
-					<div class="row">
-					    <div class="col-12">
-					      <input type="text" class="form-control" placeholder="Full Name" required="true">
-					    </div>
-					    <div class="col-12">
-					      <input type="email" class="form-control" id="Email" placeholder="Email" required="true">
-					    </div>
-					    <div class="col-12">
-					      <input type="number" class="form-control" id="" placeholder="Mobile Number" required="true">
-					    </div>
-					    <div class="col-12">
-					    	<input type="text" class="form-control" id="Address" placeholder="Address" required="true">
-					    </div>
-					    <div class="col-12">
-					      <input type="text" class="form-control" placeholder="Company Name" required="true">
-					    </div>
-					</div>
-			    </div>
-			    <div class="modal-footer">
-			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			        <a href="thanks.html" class="btn btn-primary">Send to download</a>
-			    </div>
-		    </div>
-	    </form>
-	  </div>
-	</div>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="industry.html">INDUSTRY</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >PRODUCTS</a
+            >
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="dynamics-365-bc.html"
+                >Microsoft Dynamics 365</a
+              >
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="enterprise-x.html">Enterprise X</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="quick-book.html">Quick Book</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="sage.html">Sage</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="custom-software.html"
+                >Custom Software</a
+              >
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-	<section class="qbook">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<h2 class="products_title">Why do SMEs love QuickBooks Online?</h2>
-				</div>
-				<div class="col-lg-6 qb_box">
-					<img src="assets/05.png">
-					<h4 class="products_subtitle">Dashboard</h4>
-					<p class="captions">Get a snapshot of your business – Profit & Loss, Overdue Invoices, Bank Balances in seconds</p>
-				</div>
-				<div class="col-lg-6 qb_box">
-					<img src="assets/04.png">
-					<h4 class="products_subtitle">Create customized invoices</h4>
-					<p class="captions">Get enormous flexibility by customizing how your invoices and receipts look and what information they contain.</p>
-				</div>
-				<div class="col-lg-6 qb_box">
-					<img src="assets/03.png">
-					<h4 class="products_subtitle">Integration with banks</h4>
-					<p class="captions">QuickBooks integrates with ABSA, FNB, Nedbank and Standard Bank to allow you to import your bank statements easily</p>
-				</div>
-				<div class="col-lg-6 qb_box">
-					<img src="assets/10.png">
-					<h4 class="products_subtitle">It's secure</h4>
-					<p class="captions">Your data is secured with the same encryption technology used by the world’s leading banks. QuickBooks Online Security</p>
-				</div>
-				<div class="col-lg-6 qb_box">
-					<img src="assets/09.png">
-					<h4 class="products_subtitle">Know where your business stands</h4>
-					<p class="captions">Have ready access to 65+ reports in a single click. Get a clear view of the overall state of your business with the Company Snapshot.</p>
-				</div>
-				<div class="col-lg-6 qb_box">
-					<img src="assets/06.png">
-					<h4 class="products_subtitle">Transact in multi-currencies</h4>
-					<p class="captions">Handle multiple currencies and track currency gains and losses</p>
-				</div>
-				<div class="col-lg-6 qb_box">
-					<img src="assets/08.png">
-					<h4 class="products_subtitle">Multi-user collaboration</h4>
-					<p class="captions">Give your employees access, while maintaining control over what information they can view or modify.</p>
-				</div>
-				<div class="col-lg-6 qb_box">
-					<img src="assets/07.png">
-					<h4 class="products_subtitle">Take your business with you</h4>
-					<p class="captions">Access QuickBooks Online on any Internet connected computer, tablet or phone using any operating system</p>
-				</div>
-				<div class="col-lg-6 qb_box">
-					<img src="assets/01.png">
-					<h4 class="products_subtitle">Free Mobile/Tablet App</h4>
-					<p class="captions">Stay on top of your data anytime, anywhere.</p>
-				</div>
-				<div class="col-lg-6 qb_box">
-					<img src="assets/11.png">
-					<h4 class="products_subtitle">Connect an accountant</h4>
-					<p class="captions">Your accountant has free access to your financials</p>
-				</div>
-				<div class="col-lg-6 qb_box">
-					<img src="assets/02.png">
-					<h4 class="products_subtitle">Free unlimited support</h4>
-					<p class="captions">If you need help, unlimited support is just an email or phone call away</p>
-				</div>
-			</div>
-		</div>
-	</section>
+    <header class="products">
+      <div class="container-fulid">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2 class="products_title">
+              QuickBooks Online makes it easy to work from anywhere!
+            </h2>
+            <p class="products_subtitle">
+              QuickBooks Online allows you to run your small business seamlessly
+              from the cloud. Because it’s cloud accounting software, your data
+              is automatically synced across your devices so that your work is
+              never lost. It also means you can run your business from the
+              office, the car or the kitchen table.
+            </p>
+            <button
+              href="#"
+              class="btn btn-default"
+              data-toggle="modal"
+              data-target="#brochure_form"
+            >
+              DOWNLOAD BROCHURE
+            </button>
+          </div>
+          <div class="col-lg-6 text-center">
+            <img class="products_img" src="assets/quickbooks.png" />
+          </div>
+        </div>
+      </div>
+    </header>
 
-	
+    <!-- brochure Modal -->
+    <div
+      class="modal fade"
+      id="brochure_form"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="brochureTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <form
+          name="quick-book-brochure"
+          id="quick-book-brochure"
+          netlify-honeypot="bot-field"
+          method="POST"
+          netlify
+        >
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="brochureTitle">
+                Fill form to continue
+              </h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true" style="font-size: 25px;">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body brochure_form">
+              <div class="row">
+                <div class="col-12">
+                  <label>Full Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter full name"
+                    required="true"
+                  />
+                </div>
+                <div class="col-12">
+                  <label>Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="Email"
+                    placeholder="Enter your email"
+                    required="true"
+                  />
+                </div>
+                <div class="col-12">
+                  <label>Mobile Number</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id=""
+                    placeholder="Enter your mobile number"
+                    required="true"
+                  />
+                </div>
+                <div class="col-12">
+                  <label>Address</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="Address"
+                    placeholder="Enter your Address"
+                    required="true"
+                  />
+                </div>
+                <div class="col-12">
+                  <label>Company Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter your company name"
+                    required="true"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+              <input
+                type="submit"
+                class="btn btn-primary"
+                value=" Send to download"
+              />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
 
-	<footer>
-		<div class="container-fulid">
-			<div class="row">
-				<div class="col-lg-6">
-					<ul class="list-unstyled footer_list">
-						<li class="footer_list-link"><a href="about.html">ABOUT</a></li>
-						<li class="footer_list-link"><a href="services.html">SERVICES</a></li>
-						<li class="footer_list-link"><a href="product-microsoft-nav.html">MICROSOFT-NAV</a></li>
-						<li class="footer_list-link"><a href="product-enterprisex.html">ENTERPRISE X</a></li>
-						<li class="footer_list-link"><a href="contact.html">CONTACT</a></li>
-					</ul>
-					<p class="footer_caption">Copyright. All rights reserved</p>
-				</div>
-				<div class="col-lg-6 text-right">
-					<a class="footer_link" href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-					<a class="footer_link" href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
-					<a class="footer_link" href="#"><ion-icon name="logo-skype"></ion-icon></a>
-					<a class="footer_link" href="#"><ion-icon name="logo-slack"></ion-icon></a>
-					<a class="footer_link" href="#"><ion-icon name="logo-twitter"></ion-icon></a>
-					<a class="footer_link" href="#"><ion-icon name="logo-windows"></ion-icon></a>
-				</div>
-			</div>
-		</div>
-	</footer>
+    <section class="qbook">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="products_title">Why do SMEs love QuickBooks Online?</h2>
+          </div>
+          <div class="col-lg-6 qb_box">
+            <img class="p_img" src="assets/05.png" />
+            <h4 class="products_subtitle">Dashboard</h4>
+            <p class="captions">
+              Get a snapshot of your business – Profit & Loss, Overdue Invoices,
+              Bank Balances in seconds
+            </p>
+          </div>
+          <div class="col-lg-6 qb_box">
+            <img class="p_img" src="assets/04.png" />
+            <h4 class="products_subtitle">Create customized invoices</h4>
+            <p class="captions">
+              Get enormous flexibility by customizing how your invoices and
+              receipts look and what information they contain.
+            </p>
+          </div>
+          <div class="col-lg-6 qb_box">
+            <img class="p_img" src="assets/03.png" />
+            <h4 class="products_subtitle">Integration with banks</h4>
+            <p class="captions">
+              QuickBooks integrates with ABSA, FNB, Nedbank and Standard Bank to
+              allow you to import your bank statements easily
+            </p>
+          </div>
+          <div class="col-lg-6 qb_box">
+            <img class="p_img" src="assets/10.png" />
+            <h4 class="products_subtitle">It's secure</h4>
+            <p class="captions">
+              Your data is secured with the same encryption technology used by
+              the world’s leading banks. QuickBooks Online Security
+            </p>
+          </div>
+          <div class="col-lg-6 qb_box">
+            <img class="p_img" src="assets/09.png" />
+            <h4 class="products_subtitle">Know where your business stands</h4>
+            <p class="captions">
+              Have ready access to 65+ reports in a single click. Get a clear
+              view of the overall state of your business with the Company
+              Snapshot.
+            </p>
+          </div>
+          <div class="col-lg-6 qb_box">
+            <img class="p_img" src="assets/06.png" />
+            <h4 class="products_subtitle">Transact in multi-currencies</h4>
+            <p class="captions">
+              Handle multiple currencies and track currency gains and losses
+            </p>
+          </div>
+          <div class="col-lg-6 qb_box">
+            <img class="p_img" src="assets/08.png" />
+            <h4 class="products_subtitle">Multi-user collaboration</h4>
+            <p class="captions">
+              Give your employees access, while maintaining control over what
+              information they can view or modify.
+            </p>
+          </div>
+          <div class="col-lg-6 qb_box">
+            <img class="p_img" src="assets/07.png" />
+            <h4 class="products_subtitle">Take your business with you</h4>
+            <p class="captions">
+              Access QuickBooks Online on any Internet connected computer,
+              tablet or phone using any operating system
+            </p>
+          </div>
+          <div class="col-lg-6 qb_box">
+            <img class="p_img" src="assets/01.png" />
+            <h4 class="products_subtitle">Free Mobile/Tablet App</h4>
+            <p class="captions">Stay on top of your data anytime, anywhere.</p>
+          </div>
+          <div class="col-lg-6 qb_box">
+            <img class="p_img" src="assets/11.png" />
+            <h4 class="products_subtitle">Connect an accountant</h4>
+            <p class="captions">
+              Your accountant has free access to your financials
+            </p>
+          </div>
+          <div class="col-lg-6 qb_box">
+            <img class="p_img" src="assets/02.png" />
+            <h4 class="products_subtitle">Free unlimited support</h4>
+            <p class="captions">
+              If you need help, unlimited support is just an email or phone call
+              away
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<!-- Bootstrap core JS -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <footer>
+      <div class="container-fulid">
+        <div class="row">
+          <div class="col-lg-6">
+            <ul class="list-unstyled footer_list">
+              <li class="footer_list-link"><a href="about.html">ABOUT</a></li>
+              <li class="footer_list-link">
+                <a href="services.html">SERVICES</a>
+              </li>
+              <li class="footer_list-link">
+                <a href="dynamics-365-bc.html">MICROSOFT-NAV</a>
+              </li>
+              <li class="footer_list-link">
+                <a href="enterprise-x.html">ENTERPRISE X</a>
+              </li>
+              <li class="footer_list-link">
+                <a href="contact.html">CONTACT</a>
+              </li>
+            </ul>
+            <p class="footer_caption">Copyright. All rights reserved</p>
+          </div>
+          <div class="col-lg-6 text-right">
+            <a class="footer_link" href="#"
+              ><ion-icon name="logo-facebook"></ion-icon
+            ></a>
+            <a class="footer_link" href="#"
+              ><ion-icon name="logo-linkedin"></ion-icon
+            ></a>
+            <a class="footer_link" href="#"
+              ><ion-icon name="logo-skype"></ion-icon
+            ></a>
+            <a class="footer_link" href="#"
+              ><ion-icon name="logo-slack"></ion-icon
+            ></a>
+            <a class="footer_link" href="#"
+              ><ion-icon name="logo-twitter"></ion-icon
+            ></a>
+            <a class="footer_link" href="#"
+              ><ion-icon name="logo-windows"></ion-icon
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-	<!-- Ionicons -->
-	<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <!-- Bootstrap core JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
 
-	<!-- custom script -->
-	<script>
+    <!-- Ionicons -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 
-	</script>
+    <!-- custom script -->
+    <script>
+      window.sr = ScrollReveal();
+      sr.reveal('.navbar', {
+        duration: 2000,
+        origin: 'bottom',
+        distance: '10px'
+      });
 
-</body>
+      sr.reveal('.products_title', {
+        duration: 2000,
+        origin: 'bottom',
+        distance: '10px'
+      });
+
+      sr.reveal('.products_subtitle', {
+        duration: 2000,
+        origin: 'bottom',
+        distance: '10px'
+      });
+
+      sr.reveal('.btn-default', {
+        duration: 2000,
+        origin: 'bottom',
+        distance: '20px'
+      });
+
+      sr.reveal('.download_btn', {
+        duration: 2000,
+        origin: 'bottom',
+        distance: '10px'
+      });
+
+      sr.reveal('.products_img', {
+        duration: 2000,
+        origin: 'bottom',
+        distance: '10px'
+      });
+
+      sr.reveal('.p_img', {
+        duration: 1000,
+        origin: 'bottom',
+        distance: '10px'
+      });
+
+      sr.reveal('.produce_subheaders', {
+        duration: 2000,
+        origin: 'bottom',
+        distance: '10px'
+      });
+
+      sr.reveal('.captions', {
+        duration: 2000,
+        origin: 'bottom',
+        distance: '10px'
+      });
+
+      sr.reveal('.consulting_title', {
+        duration: 2000,
+        origin: 'bottom',
+        distance: '10px'
+      });
+
+      sr.reveal('.consulting_list', {
+        duration: 2000,
+        origin: 'right',
+        distance: '10px'
+      });
+    </script>
+    <!-- Load jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <script src="js/forms.js"></script>
+  </body>
 </html>
