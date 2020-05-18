@@ -1,5 +1,13 @@
 // services page
 
+.features_img {
+	width: 70px;
+}
+
+.spacein {
+	margin-top: 5vh;
+}
+
 .services_article {
 	padding: 5vh 0;
 
@@ -26,6 +34,7 @@
 	.services_features-title {
 		font-size: 1.6rem;
 		font-weight: 600;
+		color: $color-primary;
 	}
 
 	.services_features-text {

@@ -1,5 +1,24 @@
 // index page
 
+.track_img {
+	width: 90px;
+	margin: 40px 0;
+}
+
+.value_text {
+	font-size: 1.6rem;
+}
+
+.value_subtitle {
+	font-size: 2rem;
+	font-weight: 600;
+	color: $color-primary;
+}
+
+.track_content {
+	padding-top: 10vw;
+}
+
 .values {
 	padding: 20vh 0;
 	position: relative;

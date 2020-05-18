@@ -4,13 +4,66 @@ footer {
 	border-top: .2rem solid $color-primary;
 	padding: 2rem 0;
 
+	.footer_heading-text {
+		font-weight: 600;
+		font-size: 1.5rem;
+		color: $color-primary;
+
+		a {
+			color: $color-primary;
+			text-decoration: none;
+		}
+
+	}
+
+	.brand_img {
+		width: 12vw;
+	}
+
+	.brand_img1 {
+		width: 11vw;
+	}
+
+	.brand_img2 {
+		width: 8vw;
+		margin-right: 1.2vw;
+	}
+
+	.brand_img3 {
+		width: 7vw;
+		margin-right: 1.2vw;
+	}
+
+	.brand_img4 {
+		width: 7vw;
+	}
+
+	.text {
+		font-size: 1.3rem;
+		font-weight: 600;
+		color: $color-primary; 
+	}
+
 	.footer_list {
 
 		.footer_list-link {
-			display: inline;
-			margin-right: 2rem;
 			font-size: 1.3rem;
 			font-weight: 600;
+
+			a {
+				color: $color-primary;
+				text-decoration: none;
+			}
+		}
+	}
+
+	.footer_list2 {
+
+		.footer_list-link2 {
+			font-size: 1.3rem;
+			font-weight: 600;
+			display: inline;
+			margin-right: 1vw;
 
 			a {
 				color: $color-primary;
@@ -35,8 +88,6 @@ footer {
 	.footer_list {
 
 		.footer_list-link {
-			display: inline;
-			margin-right: 2rem;
 			font-size: 1.3rem;
 			font-weight: 600;
 

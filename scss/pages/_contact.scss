@@ -50,9 +50,37 @@ form {
 	.form-row {
 		padding: 2vw;
 
+		.hide {
+			visibility: hidden;
+		}
+
 		.form-control {
 			font-size: 1.3rem;
 			margin: 1rem 0;
 		}
 	}
 }
+
+.partners {
+	padding: 0 2vw 10vw 2vw;
+
+	.partners_content {
+		padding: 2vh;
+	}
+
+	.partners_title {
+		font-size: 4rem;
+		font-weight: 600;
+		color: $color-primary;
+	}
+
+	.partners_subtitle {
+		font-size: 2rem;
+		color: $color-primary;
+	}
+
+	.partners_text {
+		font-size: 1.6rem;
+	}
+}
+
